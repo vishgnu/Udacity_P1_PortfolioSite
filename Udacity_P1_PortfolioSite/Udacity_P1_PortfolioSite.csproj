@@ -66,6 +66,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\8989805984_15a09b8c87_o.png" />
+    <Content Include="images\github-128.png" />
+    <Content Include="images\IMG_20140724_210155.jpg" />
+    <Content Include="images\PixelKit_globe_icon512.png" />
+    <Content Include="images\PixelKit_home_icon.png" />
+    <Content Include="images\PixelKit_location_icon.png" />
+    <Content Include="images\PixelKit_map_icon.png" />
+    <Content Include="images\PixelKit_playstation_icon.png" />
     <Content Include="index.html" />
     <Content Include="portfolio\columnspacing.html" />
     <Content Include="portfolio\framework\css\main.css" />
