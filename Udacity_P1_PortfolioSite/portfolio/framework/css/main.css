@@ -30,8 +30,8 @@
     }
 }
 
-/*Xsmall*/
-@media only handheld , (max-width:640px) {
+/*mobile*/
+@media only screen and (max-width: 768px) {
     #wrapper {
         width: 100%;
         margin: 0 auto;
