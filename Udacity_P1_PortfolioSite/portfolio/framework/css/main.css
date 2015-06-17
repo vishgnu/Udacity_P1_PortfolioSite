@@ -31,7 +31,7 @@
 }
 
 /*Xsmall*/
-@media only screen and (max-width:640px) {
+@media only handheld , (max-width:640px) {
     #wrapper {
         width: 100%;
         margin: 0 auto;
