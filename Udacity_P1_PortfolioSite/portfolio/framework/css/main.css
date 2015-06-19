@@ -38,6 +38,12 @@
     text-align:center;
 }
 
+.ruler{
+    background-color: #BCBBBB;
+    margin-top:30;
+     padding:1px;
+}
+
 .githubImg{
     margin-top:19.920px;
     opacity:0.5;
