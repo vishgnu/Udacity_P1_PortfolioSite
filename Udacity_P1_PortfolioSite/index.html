@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>Udacity Project 1: Portfolio</title>
     <link href="css/main.css" rel="stylesheet"/>
     <link href="http://fonts.googleapis.com/css?family=Rhodium+Libre&amp;subset=latin,latin-ext" rel="stylesheet">
@@ -12,11 +12,11 @@
         <header>
             <div class="grid">
                 <div class="row">
-                    <div class="titelcolumns">
+                    <div class="col-6">
                         <img alt="Page Logo" src="img/PixelKit_globe_icon512.png" width="100" height="100"><br/>
                         <div class="headingurl">vishgnu.org</div>
                     </div>
-                    <div class="titelcolumns">
+                    <div class="col-6">
                         <div class="row">
                             <div class="right">
                                 <h1 class="heading">Niels Walter</h1>
@@ -35,7 +35,7 @@
             <div class="grid">
                 <div class="row">
                     <div class="col-12">
-                        <img alt="Maze Image" src="img/8989805984_26896c4c6d_b.jpg" width="960" height="350">
+                        <img  class="imgmazescale" alt="Maze Image" src="img/8989805984_26896c4c6d_b.jpg">
                     </div>
                 </div>
             </div>
@@ -47,11 +47,11 @@
                         Featured Work
                     </h2>
                 </div>
-                <div class="row" id="appslist">
-                    <div class="appcolumns">
+                <div class="flex-container">
+                    <div class="appListElement">
                         <div class="row">
                             <div class="col-12">
-                                <img alt="APPIFY ICON" src="img/PixelKit_home_icon.png" width="200" height="200"/>
+                                <img class="imgappscale" alt="APPIFY ICON" src="img/PixelKit_home_icon.png" />
                             </div>
                         </div>
                         <div class="row">
@@ -65,10 +65,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="appcolumns">
+                    <div class="appListElement">
                         <div class="row">
                             <div class="col-12">
-                                <img alt="SUNFLOWER ICON" src="img/PixelKit_playstation_icon.png" width="200" height="200"/>
+                                <img class="imgappscale" alt="SUNFLOWER ICON" src="img/PixelKit_playstation_icon.png" />
                             </div>
                         </div>
                         <div class="row">
@@ -82,20 +82,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="appcolumns">
-                        <div class="row">
-                            <div class="col-12">
-                                <img alt="BOKEH ICON" src="img/PixelKit_map_icon.png" width="200" height="200"/>
+                    <div class="appListElement">
+                        <div class="grid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img class="imgappscale" alt="BOKEH ICON" src="img/PixelKit_map_icon.png" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-10">
-                                <h2 class="appTitle">BOKEH</h2>
-                            </div>
-                            <div class="col-2">
-                                <a href="https://github.com/sometuff/Bokeh">
-                                    <img class="githubImg" alt="link to github" src="img/github-128.png" width="30" height="30">
-                                </a>
+                            <div class="row">
+                                <div class="col-10">
+                                    <h2 class="appTitle">BOKEH</h2>
+                                </div>
+                                <div class="col-2">
+                                    <a href="https://github.com/sometuff/Bokeh">
+                                        <img class="githubImg" alt="link to github" src="img/github-128.png" width="30" height="30">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
