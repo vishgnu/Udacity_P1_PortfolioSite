@@ -1,4 +1,4 @@
-﻿body {
+body {
     /*border: 1px solid red !important;*/
     font-family: 'Rhodium Libre', serif;
     -moz-box-sizing: border-box;
@@ -19,7 +19,7 @@
 
 .heading {
     color: #bcbbbb;
-    margin: 0 0;
+    margin: 0;
 }
 
  .grid {
@@ -84,21 +84,21 @@
 
 .right {
     display: block;
-    margin: 0 0 0 auto; 
+    margin: 0 0 0 auto;
 }
 
-.headingFeature {
+.heading-feature {
     color: #bcbbbb;
     margin: 20px 0 0 0;
 }
 
-.headingurl {
+.heading-url {
     color: #bcbbbb;
     margin: 0;
     font-weight: bolder;
 }
 
-.appTitle {
+.app-title {
     color: darkgrey;
     text-align: center;
 }
@@ -109,11 +109,11 @@
     padding: 1px;
 }
 
-.imgmazescale {
+.img-mazescale {
     width: 100%;
 }
 
-.imgappscale {
+.img-appscale {
     width: 60%;
    }
 
@@ -130,11 +130,11 @@
     justify-content: space-around;
 }
 
-.appImgElement {
-    margin:0 0 0 40px;
+.app-imgelement {
+    margin: 0 0 0 40px;
 }
 
-.appListElement {
+.app-listelement {
     margin: 20px; 
     width: 200px;
     height: 200px;
@@ -144,7 +144,8 @@
     border: 1px solid red !important;*/
 }
 
-.footerContent {
+/*TODO: combine with other flex class */
+.footer-content {
     display: flex;
     -ms-flex-direction: row;
     flex-direction: row;
