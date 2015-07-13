@@ -122,7 +122,9 @@
 
 .imgappscale {
     width: 60%;
-}
+   }
+
+
 
 .flex-container {
     display: flex;
@@ -130,13 +132,22 @@
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-align-content: center;
-    -webkit-align-content: center;
-    align-content: center;
-    align-items: flex-start;
+    -ms-align-content: space-around;
+    -webkit-align-content: space-around;
+    align-content: space-around;
+    align-items: stretch;
+   justify-content:space-around;
+   
+}
+
+.appImgElement {
+    margin:0 0 0 40px;
 }
 
 .appListElement{
+    margin:20px; 
     width:200px;
     height:200px;
+    background-color:aquamarine;
+    border: 1px solid red !important;
 }
